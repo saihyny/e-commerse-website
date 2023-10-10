@@ -1,10 +1,10 @@
 import Header from './Layout/Header';
-import React from 'react';
+import {Fragment} from 'react';
 function App() {
   return (
-    <React.Fragment>
+    <Fragment>
      <Header></Header>
-     </React.Fragment>
+     </Fragment>
   );
 }
 
