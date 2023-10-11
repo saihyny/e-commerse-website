@@ -1,7 +1,7 @@
 
 import {Fragment} from 'react';
 import Header from './Layout/Header';
-import Meals from './Meals/Meals';
+import Meals from './MealsList/Meals';
 function App() {
   return (
     <Fragment>
