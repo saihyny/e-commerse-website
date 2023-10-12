@@ -1,9 +1,13 @@
 import Clasess from "./HeaderCartButton.module.css";
 import CartIcon from "../Cart/CartIcon";
 
-const HeaderCartButton = () => {
+
+
+
+const HeaderCartButton = (props) => {
+  
   return (
-    <button className={Clasess.button}>
+    <button className={Clasess.button} onClick={props.sendPropFHC} >
       <sapn className={Clasess.icon}>
         <CartIcon />
       </sapn>
